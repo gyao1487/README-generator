@@ -7,6 +7,7 @@ const util = require('util')
 const generateMarkdown = require('./utils/generateMarkdown.js')
 
 
+
 // Array of questions for inquirer
 const questions = [{
     type: 'input',
@@ -30,7 +31,7 @@ const questions = [{
 },
 {
     type: 'input',
-    name: 'contribution',
+    name: 'contribute',
     message: 'Please enter contribution guidelines for your project:',
 },
 {
@@ -40,7 +41,7 @@ const questions = [{
 },
 {
     type: 'input',
-    name: 'username',
+    name: 'github',
     message: 'What is your GitHub username?',
 },
 {
@@ -62,20 +63,25 @@ const questions = [{
         'Open',
     ]
 },
-]];
+];
 
 
 //Function to write README file
 function writeToFile(fileName, data) {
-    FileSystem.writeFile('README.md', READMEcontent)
+    fs.writeFile('README.md', data)
 }
 
 //Function to initialize app
 function init() { 
 
+    //Inquirer questions
+    const answers = inquirer.prompt(questions);
+    let 
 
+    //Generate markdown from user input
 
-
+    
+    //Create file containing markdown
 
 
 }
