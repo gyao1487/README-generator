@@ -3,10 +3,12 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util')
 
-//Internal requirements
+
+
+
+//Declaring varriables to connect modules
+const licenseBadge = require("./utils/licenseBadge").licenseBadge;
 const generateMarkdown = require('./utils/generateMarkdown.js')
-
-
 
 // Array of questions for inquirer
 const questions = [{
@@ -66,25 +68,26 @@ const questions = [{
 ];
 
 
-//Function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile('README.md', data)
-}
+//Function to return promise for writing the README file
+const ReturnWriteFile = util.promisify(fs.writeFile)
 
 //Function to initialize app
-function init() { 
-
-    //Inquirer questions
-    const answers = inquirer.prompt(questions);
-    let 
-
-    //Generate markdown from user input
-
-    
-    //Create file containing markdown
+function init() {
+    try {
+        const data = inquirer.prompt(questions);
+        data.licenseBadge = licenseBadge(data.license)
+        let READMEcontent = generateMarkdown(data);
 
 
-}
+        //Generate markdown from user input
+
+
+        //Create file containing markdown
+    } catch (err) {
+        console.log('Oops! We have encountered an error while trying to generate your README. Please try again!')
+    }
+
+};
 
 // Function call to initialize app
 init();

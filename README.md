@@ -1,8 +1,8 @@
-# ${answers.title}
+# ${data.title}
 ## Badges
 
 ## Description
-${answers.description}
+${data.description}
 
 ## Table of Contents 
 - [Installation](#installation)
@@ -11,30 +11,30 @@ ${answers.description}
 - [License](#license)
 
 ## Installation
-${answers.installation}
+${data.installation}
 
 ## Usage
-${answers.usage}
+${data.usage}
 
 ## Contributing
 If you would like to contribute to this project, you can follow the below guidelines:
-${answers.contribute}
+${data.contribute}
 
 ## Tests
 How to run tests for the application:
-${answers.test}
+${data.test}
 
 ## License
-${answers.license}
+This project is licensed under ${data.license}.
 
 ---
 ## Questions
 
 If you have any questions about this project, or have any inquiries about contributions or collaboration, please feel free to reach out! Refer to the contact information below:
 
-GitHub: ${answers.github}
+GitHub: ${data.github}
 
-Email: ${answers.license}
+Email: ${data.license}
 
 
 
