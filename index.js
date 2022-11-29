@@ -5,7 +5,7 @@ const util = require('util')
 
 //Declaring varriables to connect modules
 const licenseBadge = require("./utils/licenseBadge").licenseBadge;
-const generateMarkdown = require('./utils/generateMarkdown.js')
+const generateMarkdown = require('./generateMarkdown.js')
 
 // Array of questions for inquirer
 const questions = [{
@@ -64,17 +64,27 @@ const questions = [{
 },
 ];
 
+function writeFilePlease(fileName, data) {
+ fs.writeFile(fileName,data, err => {
+    if (err) {
+        return console.log(err)
+    }
+
+    console.log ("Your README file has successfully been generated!")
+ });
+}
 
 //Function to return promise for writing the README file
-const ReturnWriteFile = util.promisify(fs.writeFile)
+const ReturnWriteFile = util.promisify(writeFilePlease)
 
 //Function to initialize app
 async function init() {
     try {
-        const data = inquirer.prompt(questions);
-        data.licenseBadge = licenseBadge(data.license)
+        const data = await inquirer.prompt(questions);
+        
         let READMEcontent = generateMarkdown(data);
         await ReturnWriteFile("new-README.md",READMEcontent)
+        
     } catch (err) {
         console.log('Oops! We have encountered an error while trying to generate your README. Please try again!')
         throw err
