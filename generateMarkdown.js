@@ -5,7 +5,7 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ${data.licenseBadge}
+  ${data.license}
 
   ## Description
   ${data.description}

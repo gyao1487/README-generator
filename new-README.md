@@ -1,9 +1,9 @@
-# TiTLE
+# SAMPLE PROJECT TITLE
 
   undefined
 
   ## Description
-  TILTJFDKLS
+  SAMPLE DESCRIPTION. THIS IS A SAMPLE PROJECT.
   
   ## Table of Contents 
   - [Installation](#installation)
@@ -12,27 +12,27 @@
   - [License](#license)
   
   ## Installation
-  FJKSDLFJKDLS
+  INSTALL THE SAMPLE PROJECT.
   
   ## Usage
-  FJSDKLFJSDKL
+  INFORMATION ABOUT THE SAMPLE PROJECT
   
   ## Contributing
   If you would like to contribute to this project, you can follow the below guidelines:
-  FJSDKLFJLDS
+  CONTRIBUTIONS
   
   ## Tests
   How to run tests for the application:
-  JFKLDSLFJ
+  TEST INSTRUCTIONS
   
   ## License
-  This project is licensed under Mozilla.
+  This project is licensed under Apache.
   
   ---
   ## Questions
   
   If you have any questions about this project, or have any inquiries about contributions or collaboration, please feel free to reach out! Refer to the contact information below:
   
-  GitHub: FJSDKLFJDSLK
+  GitHub: geeyao
   
-  Email: JFKDSJFK 
+  Email: geeyao@gmail.com 

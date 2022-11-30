@@ -9,5 +9,5 @@ function licenseBadge(data) {
     }
   }
 
-  module.exports = {licenseBadge: licenseBadge}
+  module.exports = licenseBadge
   
