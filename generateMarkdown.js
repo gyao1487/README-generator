@@ -1,11 +1,10 @@
 //Function to generate markdown for README
-
-
+const licenseBadge = require('./utils/licenseBadge')
 
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ${data.license}
+  ${licenseBadge(data.license)}
 
   ## Description
   ${data.description}

@@ -1,9 +1,9 @@
-# SAMPLE PROJECT TITLE
+# SAMPLE
 
-  undefined
+  ![Github license](http://img.shields.io/badge/license-Mozilla-blue.svg)
 
   ## Description
-  SAMPLE DESCRIPTION. THIS IS A SAMPLE PROJECT.
+  SAMPLE
   
   ## Table of Contents 
   - [Installation](#installation)
@@ -12,27 +12,27 @@
   - [License](#license)
   
   ## Installation
-  INSTALL THE SAMPLE PROJECT.
+  SAMPLE
   
   ## Usage
-  INFORMATION ABOUT THE SAMPLE PROJECT
+  SAMPLE
   
   ## Contributing
   If you would like to contribute to this project, you can follow the below guidelines:
-  CONTRIBUTIONS
+  SAMPLE
   
   ## Tests
   How to run tests for the application:
-  TEST INSTRUCTIONS
+  SAMPLE
   
   ## License
-  This project is licensed under Apache.
+  This project is licensed under Mozilla.
   
   ---
   ## Questions
   
   If you have any questions about this project, or have any inquiries about contributions or collaboration, please feel free to reach out! Refer to the contact information below:
   
-  GitHub: geeyao
+  GitHub: SAMPLE
   
-  Email: geeyao@gmail.com 
+  Email: SAMPLE 

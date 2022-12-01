@@ -4,7 +4,6 @@ const fs = require('fs');
 const util = require('util')
 
 //Declaring varriables to connect modules
-const licenseBadge = require("./utils/licenseBadge").licenseBadge;
 const generateMarkdown = require('./generateMarkdown.js')
 
 // Array of questions for inquirer
@@ -68,7 +67,7 @@ function writeFilePlease(fileName, data) {
  fs.writeFile(fileName,data, err => {
     if (err) {
         return console.log(err)
-    }
+    } 
 
     console.log ("Your README file has successfully been generated!")
  });
@@ -81,7 +80,6 @@ const ReturnWriteFile = util.promisify(writeFilePlease)
 async function init() {
     try {
         const data = await inquirer.prompt(questions);
-        
         let READMEcontent = generateMarkdown(data);
         await ReturnWriteFile("new-README.md",READMEcontent)
         
