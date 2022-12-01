@@ -1,9 +1,9 @@
-# SAMPLE
+# SAMPLE TITLE
 
   ![Github license](http://img.shields.io/badge/license-Mozilla-blue.svg)
 
   ## Description
-  SAMPLE
+  This is a description of my project. Describe describe describe.
   
   ## Table of Contents 
   - [Installation](#installation)
@@ -12,18 +12,18 @@
   - [License](#license)
   
   ## Installation
-  SAMPLE
+  Here is how to install the project. 
   
   ## Usage
-  SAMPLE
+  Here is the usage information for the project.
   
   ## Contributing
   If you would like to contribute to this project, you can follow the below guidelines:
-  SAMPLE
+  Here is how you contribute to the project.
   
   ## Tests
   How to run tests for the application:
-  SAMPLE
+  Here is how you test the project.
   
   ## License
   This project is licensed under Mozilla.
@@ -33,6 +33,6 @@
   
   If you have any questions about this project, or have any inquiries about contributions or collaboration, please feel free to reach out! Refer to the contact information below:
   
-  GitHub: SAMPLE
+  GitHub: gyao1487
   
-  Email: SAMPLE 
+  Email: gee.yao@gmail.com 
